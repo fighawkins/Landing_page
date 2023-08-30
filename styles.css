@@ -1,0 +1,35 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header, 
+.footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 16px;
+  background-color: #1f2937;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    gap: 12px;
+   
+    font-family: Arial, Helvetica, sans-serif;
+    color: #f9faf8;
+  }
+
+  a {
+    color:lightgray;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  .Logo {
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: bold;
+  }
