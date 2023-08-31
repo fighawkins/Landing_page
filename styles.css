@@ -105,6 +105,7 @@ img {
     align-items: center;
     gap: 30px;
     height: 300px;
+   
     
    
 
@@ -115,6 +116,7 @@ img {
     display: flex;
    margin-left: 125px;
    margin-right: 125px;
+  
 }
  .one {
     display: flex;
@@ -137,11 +139,60 @@ img {
     flex-direction: column;
     align-items: center;
    justify-content: center;
-    background-color: lightgray;
-    color: #6e6e6e;
+    background-color: rgb(224, 224, 224);
+    color: #727272;
     font-size: 24px;
     font-style: italic;
     text-align: center;
     height: 300px;
   
  }
+
+ .chet{
+
+  font-weight: bold;
+  color: rgb(54, 54, 54);
+ }
+
+ .fourth_banner {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+height: 125px;
+min-width: 450px;
+  border-radius: 25px;
+background-color: #3882f6;
+  margin: 150px;
+  margin-left: 200px;
+  margin-right: 200px;
+ }
+
+ .call_button {
+  border-color: #e5e7eb;
+  border-radius: 5px;
+  border-width: 2px;
+  border-style: solid;
+  background-color: #3882f6; 
+  color: #e5e7eb;
+  height: 30px;
+  width: auto;
+}
+
+.call {
+ color: #e5e7eb;
+  font-size: 30px;
+  font-weight: bold;
+
+}
+
+.call_subtext {
+  color: #e5e7eb;
+
+}
+
+.left_call {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
