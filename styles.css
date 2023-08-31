@@ -96,13 +96,37 @@ img {
     font-size: 36px;
     font-weight: bold;
     color: #1f2937;
+    padding: 30px;
+    margin: 30px;
   }
   .second_banner {
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 30px;
+    height: 300px;
+    
+   
+
+    
 
   }
 .list_random {
     display: flex;
+   margin-left: 125px;
+   margin-right: 125px;
 }
+ .one {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+   
+  
+    height: 200px;
+    width: auto;
+font-size: 18px;
+color: rgb(151, 151, 151);
+text-align: center;
+ }
